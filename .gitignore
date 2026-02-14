@@ -1,0 +1,16 @@
+.gradle
+.idea
+build/
+local.properties
+*.iml
+.DS_Store
+bin/
+gen/
+out/
+.classpath
+.project
+.settings
+*.class
+*.jar
+*.war
+*.ear

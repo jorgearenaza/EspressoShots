@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EspressoShots</string>
+
+    <!-- Navigation -->
+    <string name="nav_shots">Shots</string>
+    <string name="nav_beans">Granos</string>
+    <string name="nav_grinders">Molinos</string>
+    <string name="nav_profiles">Perfiles</string>
+    <string name="nav_settings">Opciones</string>
+
+    <!-- Common -->
+    <string name="add">Agregar</string>
+    <string name="save">Guardar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="close">Cerrar</string>
+    <string name="back">Volver</string>
+
+    <!-- Shots Screen -->
+    <string name="shots_empty">No hay shots. Agrega uno…</string>
+    <string name="shots_title">Mis Shots</string>
+    <string name="shot_date">Fecha</string>
+    <string name="shot_bean">Grano</string>
+    <string name="shot_grinder">Molino</string>
+    <string name="shot_profile">Perfil</string>
+    <string name="shot_dose">Dosis (g)</string>
+    <string name="shot_yield">Rendimiento (g)</string>
+    <string name="shot_ratio">Ratio</string>
+    <string name="shot_time">Tiempo (seg)</string>
+    <string name="shot_temp">Temperatura (°C)</string>
+    <string name="shot_grind_adj">Ajuste de Molienda</string>
+    <string name="shot_notes">Notas</string>
+    <string name="shot_rating">Calificación (1-5)</string>
+
+    <!-- Beans Screen -->
+    <string name="beans_empty">No hay granos. Agrega uno…</string>
+    <string name="beans_title">Mis Granos</string>
+    <string name="bean_roaster">Tostador</string>
+    <string name="bean_name">Café/Variedad</string>
+    <string name="bean_roast_date">Fecha de Tostado</string>
+    <string name="bean_purchase_date">Fecha de Compra</string>
+    <string name="bean_notes">Notas</string>
+    <string name="bean_days_ago">Tostado hace %d días</string>
+
+    <!-- Grinders Screen -->
+    <string name="grinders_empty">No hay molinos. Agrega uno…</string>
+    <string name="grinders_title">Mis Molinos</string>
+    <string name="grinder_name">Nombre</string>
+    <string name="grinder_default_adj">Ajuste por Defecto</string>
+    <string name="grinder_notes">Notas</string>
+
+    <!-- Profiles Screen -->
+    <string name="profiles_empty">No hay perfiles. Agrega uno…</string>
+    <string name="profiles_title">Mis Perfiles</string>
+    <string name="profile_name">Nombre</string>
+    <string name="profile_description">Descripción</string>
+    <string name="profile_params">Parámetros</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Opciones</string>
+    <string name="settings_default_dose">Dosis por Defecto (g)</string>
+    <string name="settings_default_ratio">Ratio por Defecto</string>
+    <string name="settings_autofill">Autocompletar Shots</string>
+    <string name="settings_saved">Opciones guardadas</string>
+    <string name="settings_default_grinder">Molino por Defecto</string>
+    <string name="settings_default_profile">Perfil por Defecto</string>
+    <string name="settings_no_grinder">Ninguno</string>
+    <string name="settings_no_profile">Ninguno</string>
+
+    <!-- Validation -->
+    <string name="error_required_field">Este campo es requerido</string>
+    <string name="error_invalid_number">Número inválido</string>
+
+    <!-- Messages -->
+    <string name="item_deleted">Elemento eliminado</string>
+    <string name="item_saved">Elemento guardado</string>
+</resources>
