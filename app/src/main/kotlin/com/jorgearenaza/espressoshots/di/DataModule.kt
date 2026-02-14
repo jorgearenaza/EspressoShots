@@ -3,6 +3,7 @@ package com.jorgearenaza.espressoshots.di
 import android.content.Context
 import com.jorgearenaza.espressoshots.data.db.AppDatabase
 import com.jorgearenaza.espressoshots.data.datastore.AppSettingsManager
+import com.jorgearenaza.espressoshots.data.preferences.SettingsRepository
 import com.jorgearenaza.espressoshots.data.repository.BeanRepository
 import com.jorgearenaza.espressoshots.data.repository.GrinderRepository
 import com.jorgearenaza.espressoshots.data.repository.ProfileRepository
@@ -28,6 +29,12 @@ object DataModule {
     @Provides
     fun provideAppSettingsManager(@ApplicationContext context: Context): AppSettingsManager {
         return AppSettingsManager(context)
+    }
+
+    @Singleton
+    @Provides
+    fun provideSettingsRepository(@ApplicationContext context: Context): SettingsRepository {
+        return SettingsRepository(context)
     }
 
     @Singleton
