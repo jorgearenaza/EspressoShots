@@ -2,6 +2,24 @@
 
 Una aplicación Android moderna para registrar y gestionar shots de espresso, incluyendo granos, molinos, perfiles y configuración avanzada.
 
+---
+
+## 🚀 CÓMO EMPEZAR
+
+### Opción 1: Guía Visual Rápida (5 minutos)
+→ **[QUICKSTART_VISUAL.md](QUICKSTART_VISUAL.md)** - 5 pasos, 5 minutos
+
+### Opción 2: Guía Detallada con Troubleshooting  
+→ **[CLONE_AND_RUN.md](CLONE_AND_RUN.md)** ⭐ **GUÍA PRINCIPAL** - paso a paso completo
+
+### Opción 3: Referencia Rápida
+→ **[QUICK_CLONE.md](QUICK_CLONE.md)** - referencia en formato tabla
+
+### Opción 4: Checklist Interactivo
+→ **[CHECKLIST_CLONE_AND_BUILD.md](CHECKLIST_CLONE_AND_BUILD.md)** - checklist para seguir mientras compilas
+
+---
+
 ## Características
 
 - **Registro de Shots**: Registra cada shot con dosis, rendimiento, tiempo, temperatura y notas
@@ -69,15 +87,21 @@ app/src/main/
 
 ## Cómo Compilar y Ejecutar
 
-### Requisitos
-- Android Studio Panda o superior
-- Gradle 8.4
-- minSdk: 24, targetSdk: 34
-- Kotlin 1.9.20
+### 🚀 GUÍA COMPLETA PARA CLONAR Y EJECUTAR
+**→ Ver [CLONE_AND_RUN.md](CLONE_AND_RUN.md)** para instrucciones detalladas paso a paso (Windows 11, macOS, Linux)
 
-### Compilar
+### Requisitos Mínimos
+- Android Studio Panda 2025.3.1 o superior
+- Gradle 8.4 (incluido en gradlew)
+- minSdk: 24, targetSdk: 34, compileSdk: 34
+- Kotlin 1.9.20
+- OpenJDK 21.0.9 (incluido en Android Studio)
+- 4GB+ RAM
+
+### Compilar (Resumen)
 ```bash
 ./gradlew :app:assembleDebug
+# APK generado: app/build/outputs/apk/debug/app-debug.apk
 ```
 
 ### Ejecutar
@@ -101,6 +125,28 @@ app/src/main/
 3. **Registrar un Shot**: Tab "Shots" → Botón rojo → Seleccionar grano, molino → Dosis: 18g, Rendimiento: 36g (ratio se calcula) → Guardar
 4. **Cambiar Settings**: Tab "Opciones" → Modificar Dosis/Ratio → Botón rojo "Guardar"
 5. **Verificar Autofill**: Volver a Shots → Nuevo shot → Dosis y Ratio deberían estar prellenados con los valores guardados
+
+---
+
+## 📚 Documentación Disponible
+
+| Documento | Propósito |
+|-----------|-----------|
+| **[CLONE_AND_RUN.md](CLONE_AND_RUN.md)** | 📥 Clonar repo y ejecutar en Android Studio Panda (EMPEZAR AQUÍ) |
+| **[START_HERE.md](START_HERE.md)** | ⚡ Guía rápida 3 pasos |
+| **[BUILD_PANDA_2025.md](BUILD_PANDA_2025.md)** | 🔨 Compilación detallada para Panda 2025.3.1 |
+| **[BUILD_STATUS.md](BUILD_STATUS.md)** | ✅ Checklist estado actual (47 archivos .kt) |
+| **[PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)** | 🏗️ Arquitectura, paquetes, entidades, DAOs |
+| **[QUICK_START.md](QUICK_START.md)** | ⚡ Setup rápido (alternativa) |
+| **[COMMIT_GUIDE.md](COMMIT_GUIDE.md)** | 📦 5 commits lógicos para Pull Request |
+| **[CHECKLIST.md](CHECKLIST.md)** | ☑️ Manual testing 5 tabs, colors, forms |
+| **[INVENTORY.md](INVENTORY.md)** | 📋 Lista completa 87 archivos con LOC |
+| **[DELIVERABLES.md](DELIVERABLES.md)** | ✨ Entregables finales y validación |
+| **[RESUMEN_EJECUTIVO.md](RESUMEN_EJECUTIVO.md)** | 📝 Summary ejecutivo (español) |
+
+---
+
+## Pasos para Probar
 
 ## Componentes Clave
 

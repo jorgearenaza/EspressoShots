@@ -2,22 +2,31 @@
 
 ## ¿Qué es esto?
 
-**EspressoShots**: Aplicación Android 100% nueva en Kotlin con MVVM + Jetpack Compose + Material3 + Room + DataStore + Hilt. Lista para compilar en **Android Studio Panda 2025.3.1**.
+**EspressoShots**: Aplicación Android 100% nueva en Kotlin con MVVM + Jetpack Compose + Material3 + Room + DataStore + Hilt. **Lista para clonar, compilar y ejecutar en Android Studio Panda 2025.3.1.**
 
 ---
 
-## ✅ Estado Actual
+## 📥 OPCIÓN 1: Clonar el Repositorio (RECOMENDADO)
 
-| Parte | Status |
-|------|--------|
-| Código Kotlin | ✅ Completo (47 archivos) |
-| Gradle/Build | ✅ Completo |
-| Documentación | ✅ Completo (9 files) |
-| **Compilación** | ⏳ Listo, falta hacer build |
+**Para clonar desde GitHub y ejecutar nativamente en tu máquina:**
+
+### Ver → [CLONE_AND_RUN.md](CLONE_AND_RUN.md) ⭐
+
+Esta es la guía **completa paso a paso** para:
+1. Clonar el repositorio
+2. Abrir en Android Studio Panda 2025.3.1
+3. Compilar APK
+4. Instalar en device/emulator
+5. Troubleshooting
+
+Incluye instrucciones específicas para:
+- ✅ Windows 11 (PowerShell, CMD)
+- ✅ macOS (Bash)
+- ✅ Linux (Bash)
 
 ---
 
-## 🎯 QUÉ HACER AHORA (3 PASOS)
+## ⚡ OPCIÓN 2: Guía Rápida (3 Pasos)
 
 ### Paso 1: Abrir en Android Studio
 ```
@@ -51,14 +60,17 @@ Después de compilación exitosa:
 
 | Documento | Propósito |
 |-----------|-----------|
-| [BUILD_PANDA_2025.md](BUILD_PANDA_2025.md) | 📖 Guía detallada compilación Panda 2025.3.1 |
+| **[CLONE_AND_RUN.md](CLONE_AND_RUN.md)** | 📥 **CLONAR Y EJECUTAR EN PANDA (GUÍA PRINCIPAL)** |
+| **[QUICK_CLONE.md](QUICK_CLONE.md)** | ⚡ Referencia rápida 5-min |
+| [BUILD_PANDA_2025.md](BUILD_PANDA_2025.md) | 📖 Compilación detallada |
 | [BUILD_STATUS.md](BUILD_STATUS.md) | ✅ Checklist estado actual |
+| [CLONE_VERIFICATION.md](CLONE_VERIFICATION.md) | 🔍 Verificación pre-clone |
 | [README.md](README.md) | 📝 Descripción proyecto |
 | [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md) | 🏗️ Arquitectura y estructura |
 | [QUICK_START.md](QUICK_START.md) | ⚡ Inicio rápido |
 | [COMMIT_GUIDE.md](COMMIT_GUIDE.md) | 📦 5 commits para PR |
 | [CHECKLIST.md](CHECKLIST.md) | ☑️ Testing manual |
-| [INVENTORY.md](INVENTORY.md) | 📋 Lista 87 archivos |
+| [INVENTORY.md](INVENTORY.md) | 📋 Lista archivos |
 | [DELIVERABLES.md](DELIVERABLES.md) | ✨ Entregables finales |
 
 ---
