@@ -1,5 +1,6 @@
 package com.jorgearenaza.espressoshots.ui.screens
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -404,6 +405,3 @@ fun ProfileDropdown(
         }
     }
 }
-
-// Helper para clicks
-import androidx.compose.foundation.clickable
